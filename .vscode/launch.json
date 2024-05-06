@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/hoo/Study/cpp-practice/Cpp-Exercises/DAY10",
+      "program": "/Users/hoo/Study/cpp-practice/Cpp-Exercises/DAY10/build/Debug/outDebug"
+    }
+  ]
+}
