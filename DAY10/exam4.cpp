@@ -12,7 +12,7 @@ vector<int> solution(vector<int> arr) {
     int start = -1;
     int end = -1;
     
-    for(int i=0; i<arr.size(); i++)
+    for(size_t i=0; i<arr.size(); i++)
     {
         if(arr[i] == 2)
         {
@@ -21,7 +21,7 @@ vector<int> solution(vector<int> arr) {
         }
     }
     
-    for(int i=arr.size(); i>=0; i--)
+    for(size_t i=arr.size(); i>=0; i--)
     {
         if(arr[i] == 2)
         {
