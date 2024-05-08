@@ -23,6 +23,6 @@ vector<int> solution(vector<int> arr) {
         for(auto it = start; it != end.base(); ++it) {
             answer.push_back(*it);
         }
-    }
+    } 
     return answer;
 }
