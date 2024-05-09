@@ -7,26 +7,17 @@
 using namespace std;
 
 vector<int> solution(vector<int> arr, vector<int> query) {
-    vector<int> answer = arr;
-    vector<int> temp;
-    for(int i=0; i<query.size(); i++)
+    vector<int> answer;
+    for (int idx = 0; idx < query.size(); idx++)
     {
-        temp = answer;
-        answer.clear();
-        
-        if(i % 2 == 0)
+        if (idx % 2 == 0)
         {
-            for(int j=0; j<=query[i]; j++)
-            {
-                answer.push_back(temp[j]);
-            }
+            arr.assign(arr.begin(), arr.begin() + query[idx]+1);
         }
-        else {
-            for(int j=query[i]; j<temp.size(); j++)
-            {
-                answer.push_back(temp[j]);
-            }
+        else
+        {
+            arr.assign(arr.begin() + query[idx], arr.end());
         }
     }
-    return answer;
+    return arr;
 }
