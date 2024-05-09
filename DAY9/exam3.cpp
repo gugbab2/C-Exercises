@@ -1,5 +1,6 @@
 #include <string>
 #include <vector>
+#include <algorithm>
 
 // 입력 : 문자열 myString, pat
 // 조건#1 : myString 의 길이는 pat 의 길이와 같거나 크다. 
@@ -13,22 +14,14 @@ int solution(string myString, string pat) {
     string secondString = pat;
     
     // 모두 대분자로 변경
-    for(char& c : firstString)
-    {
-        c = toupper(c);
-    }
-    
-    for(char& c : secondString)
-    {
-        c = toupper(c);
-    }
+    transform(firstString.begin(), firstString.end(), firstString.begin(), [](char c) { return toupper(c); });
+    transform(secondString.begin(), secondString.end(), secondString.begin(), [](char c) { return toupper(c); });
     
     if(firstString.size() >= secondString.size())
     {
         if(firstString.find(secondString) != string::npos) 
         answer = 1;
     }
-    
     
     return answer;
 }
