@@ -27,7 +27,8 @@ using namespace std;
     answer      // 3,3,3,3,4,4,4,4,4,4,4,4
     
     ...
-*/
+*/  
+
 
 vector<int> solution(vector<int> arr, vector<bool> flag) {
     vector<int> answer;
