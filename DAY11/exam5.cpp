@@ -40,7 +40,7 @@ vector<int> solution(vector<int> arr, vector<bool> flag) {
                 answer.push_back(arr[i]);
         else
             for(size_t j=0; j<arr[i]; j++)
-                answer.pop_back();
+                answer.pop_back(); 
     }
     return answer;
-}
+} 
