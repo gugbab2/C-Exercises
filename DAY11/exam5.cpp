@@ -22,7 +22,7 @@ using namespace std;
     answer      // 3,3,3,3
     
     int i=0; 
-    flag[i]     // true
+    flag[i]     // true 
     arr[i]      // 4
     answer      // 3,3,3,3,4,4,4,4,4,4,4,4
     

@@ -12,4 +12,4 @@ string solution(string my_string, vector<int> index_list) {
         answer += my_string[i];
     }
     return answer;
-}
+} 

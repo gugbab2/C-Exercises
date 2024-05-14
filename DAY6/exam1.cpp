@@ -15,7 +15,7 @@ int solution(int a, int b, int c) {
     assert(c >= 1 && c <= 6); // c 값이 1부터 6 사이에 있는지 확인
     
     int answer = 0;
-    
+     
     if(a != b && a != c && b != c)
         answer = a+b+c;
     else if((a == b && b != c) || (a != b && b == c) || (a == c && a != b))

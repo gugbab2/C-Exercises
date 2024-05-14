@@ -18,7 +18,7 @@ using namespace std;
     int firstMonth = date2[0];
     int firstDay = date1[1];
     int secondYear = date2[1];
-    int secondMonth = date1[2];
+    int secondMonth = date1[2]; 
     int secondDay = date2[2];
     
     // 풀이 

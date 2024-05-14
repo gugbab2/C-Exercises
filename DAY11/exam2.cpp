@@ -16,7 +16,7 @@ using namespace std;
     int i = 0;
     int j = 0;
     int answer = 0;
-    
+     
     // i=0, j=0
     arr[i][j] = 5
     arr[j][i] = 5

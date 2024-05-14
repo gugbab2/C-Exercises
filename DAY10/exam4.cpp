@@ -11,7 +11,7 @@ using namespace std;
 vector<int> solution(vector<int> arr) {
     vector<int> answer;
   
-    // auto 타입으로 사용 가능
+    // auto 타입으로 사용 가능 
     vector<int>::iterator start = find(arr.begin(), arr.end(), 2);
     vector<int>::reverse_iterator end = find(arr.rbegin(), arr.rend(), 2);
     

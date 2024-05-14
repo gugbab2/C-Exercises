@@ -14,7 +14,7 @@ vector<int> solution(vector<int> num_list) {
     if(num_list[num_list.size()-1] > num_list[num_list.size()-2])
         lastInt = num_list[num_list.size()-1] - num_list[num_list.size()-2];
     else 
-        lastInt = num_list[num_list.size()-1] * 2;
+        lastInt = num_list[num_list.size()-1] * 2; 
     
     answer.swap(num_list);
     answer.push_back(lastInt);

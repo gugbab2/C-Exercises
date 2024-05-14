@@ -16,7 +16,7 @@ myString[i] = 'a';
 if(!check) tmp += myString[i]; // a
 
 // step2
-int i = 1;
+int i = 1; 
 myString[i] = 'x';
 if(check) answer.push_back(temp);   // ["a"]
 tmp = ""; 

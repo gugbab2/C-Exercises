@@ -13,4 +13,4 @@ string solution(vector<string> str_list, string ex) {
             answer += s;
     }
     return answer;
-}
+} 

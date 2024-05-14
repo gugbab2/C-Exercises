@@ -10,7 +10,7 @@ using namespace std;
 vector<int> solution(vector<int> arr, vector<vector<int>> intervals) {
     vector<int> answer;
     int start = 0;
-    int end = 0;
+    int end = 0; 
     
     for(int i=0; i<intervals.size(); i++)
     {

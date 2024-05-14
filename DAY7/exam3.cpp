@@ -22,7 +22,7 @@ vector<int> solution(vector<int> arr, vector<vector<int>> queries) {
         for(int j=s; j<e+1; j++)
         {
             // k 보다 큰 경우
-            if(arr[j] > k)
+            if(arr[j] > k) 
                 // 임시 값보다 작은 경우 temp 값으로 지정
                if(arr[j] < temp)
                    temp = arr[j];

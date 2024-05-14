@@ -9,7 +9,7 @@ using namespace std;
 // 조건3 : mode = 0일 경우 
 // 조건3-1 : code[idx]가 "1"이 아니면 idx가 짝수일 때만 ret의 맨 뒤에 code[idx]를 추가합니다.
 // 조건3-2 : code[idx]가 "1"이면 mode를 0에서 1로 바꿉니다.
-// 조건4 : mode = 1일 경우 
+// 조건4 : mode = 1일 경우  
 // 조건4-1 : code[idx]가 "1"이 아니면 idx가 홀수일 때만 ret의 맨 뒤에 code[idx]를 추가합니다.
 // 조건4-2 : code[idx]가 "1"이면 mode를 1에서 0으로 바꿉니다.
 // 조건5: return 하려는 ret가 만약 빈 문자열이라면 대신 "EMPTY"를 return 합니다.

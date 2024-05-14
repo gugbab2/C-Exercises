@@ -14,7 +14,7 @@ using namespace std;
 int solution(vector<int> arr1, vector<int> arr2) {
     
     // 두 배열의 길이가 같지 않은 경우 
-    if(arr1.size() != arr2.size())
+    if(arr1.size() != arr2.size()) 
     {
         if(arr1.size() > arr2.size())
             return 1;

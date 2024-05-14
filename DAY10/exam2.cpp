@@ -19,7 +19,7 @@
 * -> C++17 이후부터는 문자열까지 사용 가능하다.
 */
 using namespace std;
-
+ 
 vector<int> solution(int n, vector<int> slicer, vector<int> num_list) {
     vector<int> answer;
     int a = slicer[0];

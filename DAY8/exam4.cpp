@@ -13,7 +13,7 @@ string solution(string my_string, vector<vector<int>> queries) {
     int e = 0;
     int difference_value = 0;
     
-    for(int i=0; i<queries.size(); i++)
+    for(int i=0; i<queries.size(); i++) 
     {
         s = queries[i][0];
         e = queries[i][1];

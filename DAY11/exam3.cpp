@@ -18,7 +18,7 @@ using namespace std;
     int answer = 0;
 
     // i=0, j=0, k=2
-    i+j <= k            // true
+    i+j <= k            // true 
     answer += board[i][j]  
     
     // i=0, j=1, k=2

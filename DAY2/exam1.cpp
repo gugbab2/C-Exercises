@@ -10,7 +10,7 @@ using namespace std;
 // 처리1 : 버블정렬 
 // 처리2 : 가장 작은 수 5개 제외 
 // 리턴 : 가장 작은 수 5개를 제외 후 리턴
-vector<int> solution(vector<int> num_list) {
+vector<int> solution(vector<int> num_list) { 
     vector<int> answer;
     
     // 버블정렬

@@ -14,7 +14,7 @@ int solution(int a, int b, int c, int d) {
     int score = 0;
     
      // 조건 1: 네 주사위에서 나온 숫자가 모두 같으면 1111 * p 점을 얻음
-    if (a == b && b == c && c == d) {
+    if (a == b && b == c && c == d) { 
         score = 1111 * a;
     }
     // 조건 2: 세 주사위에서 나온 숫자가 같고, 나머지 한 주사위가 다른 경우 (10 × p + q)^2 점을 얻음

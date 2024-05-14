@@ -14,7 +14,7 @@ vector<int> solution(vector<int> arr, vector<int> query) {
         {
             answer.assign(answer.begin(), answer.begin() + query[idx]+1);
         }
-        else
+        else 
         {
             answer.assign(answer.begin() + query[idx], answer.end());
         }

@@ -8,7 +8,7 @@
 using namespace std;
 
 int solution(string number) {
-    int answer = 0;
+    int answer = 0; 
     int eachNumberSum = 0;
     
     for(int i=0; i<number.size(); i++)
